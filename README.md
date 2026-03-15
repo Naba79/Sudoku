@@ -2,6 +2,8 @@
 
 An interactive Sudoku puzzle game built with **HTML5, CSS3 (Grid & Flexbox), and JavaScript**. This project features a dynamic puzzle generator, real-time error detection, and a responsive design.
 
+## 🚀 Live Demo
+You can play the game here: https://naba79.github.io/Sudoku/
 
 ## ✨ Features
 * **Dynamic Board Generation:** Every game is unique, generated using a backtracking algorithm.
