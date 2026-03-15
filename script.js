@@ -1,5 +1,5 @@
 /**
- * Sudoku Game Logic - Professional Version
+ * Sudoku Game Logic
  */
 let board = Array(9).fill().map(() => Array(9).fill(0));
 let puzzle = [];
@@ -12,7 +12,7 @@ window.onload = function() {
 
 function setupGame() {
     generateFullBoard(); 
-    // Increased difficulty: 50 empty cells
+    // 50 empty cells
     preparePuzzle(50); 
     renderBoard();
     
@@ -123,7 +123,7 @@ function handleInput(num) {
         selectedTile.innerText = num;
         selectedTile.classList.add("tile-error");
 
-        // Clear the wrong number after 500ms (as requested)
+        // Clear the wrong number after 500ms
         setTimeout(() => {
             if (puzzle[r][c] === "") {
                 selectedTile.innerText = "";
